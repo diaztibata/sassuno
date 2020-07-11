@@ -1,3 +1,9 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #070101;
+  color: white;
+}
+
 .anidacion {
   color: white;
 }
@@ -54,9 +60,21 @@ section.mixin {
   }
 }
 
-body {
-  font: 100% Helvetica, sans-serif;
-  background-color: #070101;
-  color: white;
+.cuadrado-4, .cuadrado-5, .cuadrado-6 {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.cuadrado-4 {
+  background-color: navy;
+}
+
+.cuadrado-5 {
+  background-color: purple;
+}
+
+.cuadrado-6 {
+  background-color: orange;
 }
 /*# sourceMappingURL=style.css.map */
