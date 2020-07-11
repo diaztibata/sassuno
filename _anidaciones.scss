@@ -1,0 +1,12 @@
+.anidacion{
+    color: white;
+    h4{
+        color: red;
+        a{
+            color: yellowgreen;
+            &:hover {
+                background-color: white;
+              }
+        }
+    }
+}
