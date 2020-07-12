@@ -1,0 +1,10 @@
+$sizes: 40px "rojo", 50px "gray", 80px "white";
+
+@each $size, $color in $sizes {
+  .icon-#{$size} {
+    font-size: $size;
+    height: $size;
+    width: $size;
+    background-color: $color;
+  }
+}
