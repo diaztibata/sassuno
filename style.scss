@@ -1,11 +1,14 @@
-@import "anidaciones";
-@import "mixin";
-
 $font-stack:    Helvetica, sans-serif;
 $primary-color: rgb(7, 1, 1);
+$colorprueba: red;
 
 body {
   font: 100% $font-stack;
   background-color: $primary-color;
   color: white;
 }
+
+
+@import "anidaciones";
+@import "mixin";
+@import "extend";
