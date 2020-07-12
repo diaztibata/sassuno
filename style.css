@@ -104,4 +104,21 @@ h1.hola {
 .funciones p {
   font-size: 14px;
 }
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  float: left;
+  background-color: blue;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  float: left;
+  border-radius: 50px;
+  background-color: red;
+}
 /*# sourceMappingURL=style.css.map */
