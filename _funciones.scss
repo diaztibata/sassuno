@@ -1,0 +1,9 @@
+$color-error: #000;
+$color-invert: invert($color-error);
+
+h1.hola{
+color: $color-invert;
+}
+
+//son reglas que realizan cambios o calculos y dan un valor. Funciona con colores, números etc 
+// https://styde.net/lista-completa-de-funciones-nativas-de-sass/

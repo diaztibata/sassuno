@@ -1,3 +1,9 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #070101;
+  color: white;
+}
+
 .anidacion {
   color: white;
 }
@@ -54,9 +60,7 @@ section.mixin {
   }
 }
 
-body {
-  font: 100% Helvetica, sans-serif;
-  background-color: #070101;
+h1.hola {
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
