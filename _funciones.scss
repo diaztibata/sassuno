@@ -1,0 +1,23 @@
+$color-error: #000;
+$color-invert: invert($color-error);
+
+h1.hola{
+color: $color-invert;
+}
+
+//son reglas que realizan cambios o calculos y dan un valor. Funciona con colores, números etc 
+
+$arrayfontsize: (
+  big: 24px,
+  normal: 16px,
+  small: 14px,
+  x-small: 12px
+);
+
+p {
+    font-size: map-get($arrayfontsize, normal);
+  }
+  
+  small {
+    font-size: map-get($arrayfontsize, x-small);
+  }

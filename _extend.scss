@@ -1,0 +1,23 @@
+
+// con %porcentaje no se muestra la clase cuadradodos (no existe),  con punto se muestra la clase
+
+%cuadradodos{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.cuadrado-4{
+    @extend %cuadradodos;
+    background-color: navy;
+}
+
+.cuadrado-5{
+    @extend %cuadradodos;
+    background-color: purple;
+}
+
+.cuadrado-6{
+    @extend %cuadradodos;
+    background-color: orange;
+}
