@@ -1,10 +1,42 @@
-$sizes: 40px "rojo", 50px "gray", 80px "white";
+$sizes: 40px red, 50px gray, 80px white;
 
 @each $size, $color in $sizes {
   .icon-#{$size} {
     font-size: $size;
     height: $size;
     width: $size;
+    color: green;
+    margin: 10px;
     background-color: $color;
   }
 }
+
+/* --------------------- */
+$base-color: #036;
+
+
+.for{
+    h1{
+        padding-bottom: 20px;
+    }
+}  
+
+
+
+@for$i from 1 to 4 {
+    .class-#{$i} {
+      &:before {
+        content: "#{$i}";
+        color:  #fff;
+      }
+    }
+}
+
+@for $i from 1 through 3 {
+    span.class-#{$i} {
+      background-color: lighten($base-color, $i * 15%);
+      padding: 20px + ($i*5);
+      margin: 10px + $i;
+    }
+}
+  

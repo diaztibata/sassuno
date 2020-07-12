@@ -109,21 +109,65 @@ h1.hola {
   font-size: 40px;
   height: 40px;
   width: 40px;
-  background-color: "rojo";
+  color: green;
+  margin: 10px;
+  background-color: red;
 }
 
 .icon-50px {
   font-size: 50px;
   height: 50px;
   width: 50px;
-  background-color: "gray";
+  color: green;
+  margin: 10px;
+  background-color: gray;
 }
 
 .icon-80px {
   font-size: 80px;
   height: 80px;
   width: 80px;
-  background-color: "white";
+  color: green;
+  margin: 10px;
+  background-color: white;
+}
+
+/* --------------------- */
+.for h1 {
+  padding-bottom: 20px;
+}
+
+.class-1:before {
+  content: "1";
+  color: #fff;
+}
+
+.class-2:before {
+  content: "2";
+  color: #fff;
+}
+
+.class-3:before {
+  content: "3";
+  color: #fff;
+}
+
+span.class-1 {
+  background-color: #0059b3;
+  padding: 25px;
+  margin: 11px;
+}
+
+span.class-2 {
+  background-color: #0080ff;
+  padding: 30px;
+  margin: 12px;
+}
+
+span.class-3 {
+  background-color: #4da6ff;
+  padding: 35px;
+  margin: 13px;
 }
 
 /* muestrame */
