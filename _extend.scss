@@ -1,6 +1,13 @@
 
 // con %porcentaje no se muestra la clase cuadradodos (no existe),  con punto se muestra la clase
 
+.extend{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+
 %cuadradodos{
     width: 100px;
     height: 100px;

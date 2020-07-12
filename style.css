@@ -60,6 +60,12 @@ section.mixin {
   }
 }
 
+.extend {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
 .cuadrado-4, .cuadrado-5, .cuadrado-6 {
   width: 100px;
   height: 100px;
@@ -77,5 +83,25 @@ section.mixin {
 
 .cuadrado-6 {
   background-color: orange;
+}
+
+h1.hola {
+  color: white;
+}
+
+.funciones {
+  width: 100%;
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.funciones h1 {
+  font-size: 50px;
+  color: red;
+}
+
+.funciones p {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */

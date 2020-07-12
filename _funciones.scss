@@ -8,16 +8,23 @@ color: $color-invert;
 //son reglas que realizan cambios o calculos y dan un valor. Funciona con colores, números etc 
 
 $arrayfontsize: (
-  big: 24px,
+  big: 50px,
   normal: 16px,
   small: 14px,
   x-small: 12px
 );
 
-p {
-    font-size: map-get($arrayfontsize, normal);
+.funciones {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+    max-width: 1000px;
+    h1{
+        font-size: map-get($arrayfontsize, big);
+        color: $colorprueba;
+    }
+    p{
+        font-size: map-get($arrayfontsize, small);
+    }    
   }
   
-  small {
-    font-size: map-get($arrayfontsize, x-small);
-  }
